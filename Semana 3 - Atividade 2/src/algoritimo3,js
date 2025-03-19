@@ -1,0 +1,4 @@
+const numbers = [1,2,3,4,5];//Declara um array de numeros
+const isOdd = (x) => x % 2; // Arrow fubnction que retorna true para um numero ímpar
+const output = numbers.filter(isOdd);// Usa o filter para filtrar os numeros ímpares
+console.log(output); // Exibe os numeros ímpares filtrados
